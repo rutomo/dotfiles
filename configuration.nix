@@ -61,7 +61,7 @@
       "herdr"
       "icu4c@77"
       "kubeconform"
-      "kubectl"
+      "kubernetes-cli@1.34"
       "kubeseal"
       "libassuan"
       "libevent"

@@ -69,4 +69,9 @@ in
     config.lib.file.mkOutOfStoreSymlink "${dotfiles}/home/AGENTS.md";
   home.file.".config/opencode/AGENTS.md".source =
     config.lib.file.mkOutOfStoreSymlink "${dotfiles}/home/AGENTS.md";
+
+  home.activation.linkKubectl = config.lib.dag.entryAfter ["writeBoundary"] ''
+    $DRY_RUN_CMD ln -sf /usr/local/opt/kubernetes-cli@1.34/bin/kubectl /usr/local/bin/kubectl
+    $DRY_RUN_CMD chmod +x /usr/local/bin/kubectl
+  '';
 }
