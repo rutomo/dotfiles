@@ -50,6 +50,7 @@
       "ca-certificates"
       "coreutils"
       "curl"
+      "derailed/k9s/k9s"
       "flux"
       "gettext"
       "gh"
