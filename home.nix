@@ -37,6 +37,7 @@ in
       m = "git switch main";
       cc = "claude --dangerously-skip-permissions";
       co = "codex --full-auto";
+      pi = "pi --approve";
     };
   };
 
