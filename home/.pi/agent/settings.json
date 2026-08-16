@@ -6,7 +6,7 @@
     "showImages": false
   },
   "defaultProvider": "ollama",
-  "defaultModel": "qwen3-coder",
+  "defaultModel": "qwen3-coder:30b",
   "hideThinkingBlock": true,
   "quietStartup": true,
   "theme": "rose-pine-moon",

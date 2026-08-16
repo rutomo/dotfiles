@@ -6,10 +6,10 @@
       "apiKey": "ollama",
       "models": [
         {
-          "id": "qwen3-coder"
+          "id": "qwen3-coder:30b"
         },
         {
-          "id": "qwen2.5-coder"
+          "id": "qwen2.5-coder:7b"
         }
       ]
     }
