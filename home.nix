@@ -20,7 +20,10 @@ in
     nerd-fonts.hack
   ];
   fonts.fontconfig.enable = true;
-  home.sessionVariables.EDITOR = "nvim";
+  home.sessionVariables = {
+    EDITOR = "nvim";
+    OLLAMA_HOST = "192.168.1.20:11434";
+  };
 
   programs.zsh = {
     enable = true;
