@@ -16,6 +16,7 @@ in
     jq        # json on the command line
     lazygit
     neovim
+    antigravity  # google's agentic dev platform, replaces gemini-cli
     # the font everything renders in
     nerd-fonts.hack
   ];
