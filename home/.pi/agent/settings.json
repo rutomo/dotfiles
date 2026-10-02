@@ -5,8 +5,8 @@
   "terminal": {
     "showImages": false
   },
-  "defaultProvider": "ollama",
-  "defaultModel": "qwen2.5-coder:7b",
+  "defaultProvider": "antigravity",
+  "defaultModel": "gemini-3.1-pro",
   "hideThinkingBlock": true,
   "quietStartup": true,
   "theme": "rose-pine-moon",
@@ -17,7 +17,9 @@
     "npm:pi-web-access@0.14.0",
     "npm:@ryan_nookpi/pi-extension-codex-fast-mode@0.2.6",
     "git:github.com/algal/pi-openai-server-compaction@c6d593087709e9481223dc6c6c2269b371b5e055",
-    "npm:pi-ollama"
+    "npm:pi-ollama",
+    "npm:pi-antigravity@0.9.0"
   ],
-  "lastChangelogVersion": "0.84.2"
+  "lastChangelogVersion": "0.84.2",
+  "defaultThinkingLevel": "high"
 }
