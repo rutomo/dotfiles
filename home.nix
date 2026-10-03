@@ -16,6 +16,7 @@ in
     jq        # json on the command line
     lazygit
     neovim
+    fnm       # per-project node version manager
     antigravity  # google's agentic dev platform, replaces gemini-cli
     # the font everything renders in
     nerd-fonts.hack
@@ -32,6 +33,7 @@ in
     syntaxHighlighting.enable = true;  # commands turn green when valid
     initContent = ''
       bindkey '^f' autosuggest-accept
+      eval "$(fnm env --use-on-cd)"
     '';
     shellAliases = {
       ".." = "cd ..";

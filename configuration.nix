@@ -80,7 +80,6 @@
       "lz4"
       "m4"
       "nettle"
-      "node"
       "npth"
       "openssl@3"
       "p11-kit"

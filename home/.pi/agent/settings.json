@@ -5,8 +5,8 @@
   "terminal": {
     "showImages": false
   },
-  "defaultProvider": "antigravity",
-  "defaultModel": "gemini-3.1-pro",
+  "defaultProvider": "anthropic",
+  "defaultModel": "claude-sonnet-5-5",
   "hideThinkingBlock": true,
   "quietStartup": true,
   "theme": "rose-pine-moon",
