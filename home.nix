@@ -24,7 +24,7 @@ in
   fonts.fontconfig.enable = true;
   home.sessionVariables = {
     EDITOR = "nvim";
-    OLLAMA_HOST = "192.168.1.20:11434";
+    OLLAMA_HOST = "http://192.168.1.20:11434";
   };
 
   programs.zsh = {

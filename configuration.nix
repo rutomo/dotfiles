@@ -103,6 +103,7 @@
     casks = [
       "wezterm"
       "claude-code"
+      "podman-desktop"
     ];
   };
 }
