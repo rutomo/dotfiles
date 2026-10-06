@@ -32,6 +32,7 @@ in
     autosuggestion.enable = true;      # ghost text from history
     syntaxHighlighting.enable = true;  # commands turn green when valid
     initContent = ''
+      export PATH="/opt/podman/bin:$PATH"
       bindkey '^f' autosuggest-accept
       eval "$(fnm env --use-on-cd)"
     '';
